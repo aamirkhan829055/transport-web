@@ -126,7 +126,7 @@ if (document.getElementById("footer")) {
         </div>
         <div class=" border-top-99 mt-4">
             <div class="container">
-                <div class="d-flex justify-content-between pt-4">
+                <div class="d-flex justify-content-between pt-4 hhhh">
                     <p class="text-white transhfollw">Copyright © TransitFlow | Designed by VictorFlow - Powered by
                         Webflow.
                     </p>

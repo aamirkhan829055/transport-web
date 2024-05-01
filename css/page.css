@@ -652,7 +652,10 @@ a {
 
 
 
-
+.header {
+    position: relative;
+    z-index: 99;
+}
 
 
 .gragiyant-1::after {
@@ -673,6 +676,10 @@ a {
     .social-icon {
         display: flex;
         align-items: center;
+    }
+
+    .padding-50 {
+        padding: 21px;
     }
 
     .Chain-Solutions {
@@ -840,6 +847,15 @@ a {
 
     .safe-Solutions {
         padding-top: 20px;
+    }
+
+    .didplay-noen {
+
+        display: block !important;
+    }
+
+    .hhhh {
+        display: block !important;
     }
 
 
