@@ -841,7 +841,7 @@ a {
     }
 
     .display-none-text {
-        display: block;
+        display: block !important;
     }
 
     .margin-toping-0 {
@@ -891,6 +891,37 @@ a {
     .sec-7 .ca-ndicators {
         display: none;
     }
+
+    .Delivered-Packages {
+        border: none;
+    }
+
+    .Inland-ss {
+        border: none;
+    }
+
+    .sec-5 {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .gragiyant {
+        width: 88%;
+        left: 6%;
+    }
+
+    .sec-8 {
+        padding: 50px 0px;
+    }
+
+    .sec-9 {
+        padding: 50px 0px;
+    }
+
+
+}
+
+.display-none-text {
+    display: none;
 }
 
 @media (max-width: 576px) {
@@ -905,6 +936,14 @@ a {
         padding: 20px 20px;
         background-image: linear-gradient(140deg, #FFDA56 50%, #FFB629 100%);
         left: 345%;
+    }
+
+
+    .girl-img {
+        bottom: -34%;
+        left: -1%;
+        border: 30px solid #fff;
+        width: 101%;
     }
 
 }
