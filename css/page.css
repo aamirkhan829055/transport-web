@@ -383,8 +383,9 @@ a {
 
 .sec-8 {
     padding: 100px 0px;
-    background-image: linear-gradient(90deg, #091242 50%, #F4F4F4 50%);
+    background-image: linear-gradient(90deg, #091242 50%, #F4F4F4 31%);
 }
+
 
 
 .carousel-control-next,
@@ -729,6 +730,7 @@ a {
 @media (max-width: 992px) {
     .true-header {
         background-color: #091242;
+        padding: 10px 0px;
     }
 
     .logo-svg {
@@ -737,6 +739,7 @@ a {
 
     .header-nabvar {
         padding: 7px 0px !important;
+        display: none;
     }
 
     .header-nabvar-1 {
@@ -776,7 +779,7 @@ a {
     }
 
     .sec-8 {
-        background-image: linear-gradient(180deg, #091242 41%, #F4F4F4 31%);
+        background-image: linear-gradient(180deg, #091242 31%, #F4F4F4 31%);
     }
 
 
@@ -858,21 +861,50 @@ a {
         display: block !important;
     }
 
+    .sec-10 {
+        padding: 31px 0px;
+    }
 
+    .border-and-bg {
+        width: 64%;
+        height: 57%;
+    }
+
+    .transhfollw {
+        font-size: 13px;
+    }
+
+    .footer-list-ul-li li a {
+        font-size: 13px;
+    }
+
+    .border-top-99 {
+        padding: 10px 0px;
+    }
+
+    .sec-1 {
+        padding: 148px 0px 54px 0px;
+
+        background-position: bottom;
+    }
+
+    .sec-7 .ca-ndicators {
+        display: none;
+    }
 }
 
 @media (max-width: 576px) {
     .sec-7 .carousel-control-next .carousel-control-next-icon i {
-        top: 497px;
-        right: -162%;
+        top: 424px;
+        right: -286%;
     }
 
     .sec-7 .carousel-control-prev .carousel-control-prev-icon i {
 
-        top: -12%;
+        top: -18%;
         padding: 20px 20px;
         background-image: linear-gradient(140deg, #FFDA56 50%, #FFB629 100%);
-        left: 397%;
+        left: 345%;
     }
 
 }
