@@ -66,10 +66,10 @@ if (document.getElementById("header")) {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active list-a" target="_self">
-                                <a class="nav-link text-white list-a-1 border-0" href="#">Home</a>
+                                <a class="nav-link text-white list-a-1 border-0" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item list-a">
-                                <a class="nav-link text-white list-a-1" href="#">About</a>
+                                <a class="nav-link text-white list-a-1" href="./about.html">About</a>
                             </li>
                             <li class="nav-item dropdown list-a">
                                 <a class="nav-link dropdown-toggle text-white list-a-1" href="#" id="navbarDropdown"

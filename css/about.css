@@ -1,3 +1,160 @@
 .sec-33 {
     padding: 100px 0px;
 }
+
+.about-sec-1 {
+    background-image: url("../images/about.png");
+    background-size: cover;
+    padding: 153px 0px;
+    position: relative;
+}
+
+.about-sec-1::after {
+    position: absolute;
+    content: "";
+    background-image: linear-gradient(92deg,
+            #091242 -8%,
+            #032d5f 30%,
+            rgba(191, 214, 65, 0) 75%);
+    inset: 0;
+}
+
+.Solutions-cc {
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.about-sec-2 {
+    padding: 100px 0px;
+}
+
+.booking-man img {
+    border: 30px solid #fff;
+    width: 392px;
+    width: 80%;
+
+}
+
+.booking-man {
+    bottom: -25%;
+    right: -28%;
+}
+
+.padding-about {
+    padding-left: 92px;
+}
+
+.approch li a {
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #F4F4F4;
+    transition: all 0.9s;
+}
+
+
+.approch li a:focus {
+    background-color: #FFB82B;
+    color: #fff !important;
+}
+
+.approch li {
+    margin: 0px 6px;
+}
+
+.approch li a:hover {
+    background-color: #FFB82B;
+    color: #fff !important;
+}
+
+.Ecport-button button {
+
+    margin: 0px !important;
+}
+
+
+/* .about-sec-3 */
+
+.about-sec-3 {
+    padding: 100px 0px;
+}
+
+.about-sec-4 {
+    padding: 100px 0px;
+}
+
+.about-sec-5 {
+    padding: 100px 0px;
+    background-color: #F4F4F4;
+}
+
+.hover-box h5 {
+    font-size: 30px;
+    transition: all 0.9s;
+    color: #1C1F35;
+}
+
+.hover-box:hover h5 {
+    color: #fff;
+}
+
+.about-sec-6 {
+    padding: 100px 0px;
+}
+
+.hover-box {
+    background-color: #F4F4F4;
+    transition: all 0.9s;
+}
+
+.hover-box:hover {
+    color: #fff !important;
+    background-color: #091242;
+}
+
+.hover-box p {
+    font-size: 85px;
+    font-weight: bold;
+    border-bottom: 1px solid #D6D6D6;
+    color: #1C1F35;
+    transition: all 0.9s;
+}
+
+.hover-box:hover p {
+    color: #fff;
+}
+
+.hover-box p span {
+    font-size: 22px;
+    font-size: #1C1F35;
+    font-weight: 500;
+    transition: all 0.9s;
+}
+
+.hover-box:hover p span {
+    color: #fff;
+}
+
+.hover-box h3 {
+    font-size: 20px;
+    color: #1C1F35;
+    font-weight: 400;
+    margin: 0px !important;
+    /* border-top: 1px solid; */
+    border-bottom: 1px solid #D6D6D6;
+    transition: all 0.9s;
+}
+
+.hover-box:hover h3 {
+    color: #fff;
+}
+
+.list-topick {
+    width: 100%;
+}
+
+/* .abuot-sec-7 */
+.abuot-sec-8 {
+    padding: 100px 0px;
+}
