@@ -158,3 +158,40 @@
 .abuot-sec-8 {
     padding: 100px 0px;
 }
+
+
+
+@media (max-width: 1200px) {
+    .booking-man img {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-sec-1 {
+
+        background-position: right;
+    }
+
+    .approch li a {
+        margin-bottom: 10px;
+    }
+
+    .about-sec-3 {
+        padding: 0px;
+    }
+
+    .about-sec-6 {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .padding-about {
+        padding: 10px 0px 0px 0px;
+    }
+}
+
+
+@media (max-width: 576px) {}
