@@ -22,7 +22,7 @@
 .Solutions-cc {
     width: 100%;
     position: relative;
-    z-index: 99;
+    z-index: 9;
 }
 
 .about-sec-2 {
@@ -154,16 +154,34 @@
     width: 100%;
 }
 
-/* .abuot-sec-7 */
+.abuot-sec-7 {
+    padding: 100px 0px;
+}
+
 .abuot-sec-8 {
     padding: 100px 0px;
 }
 
 
+.border-0-redff {
+    border: 1px solid #4E5683;
+}
+
 
 @media (max-width: 1200px) {
     .booking-man img {
         display: none;
+
+    }
+
+
+
+    .back-box {
+        background-color: #091242 !important;
+        bottom: 22px !important;
+        right: 33% !important;
+        position: absolute !important;
+        width: 69% !important;
     }
 }
 
@@ -184,6 +202,17 @@
     .about-sec-6 {
         padding: 0px;
     }
+
+
+    .back-box {
+        position: static !important;
+        width: 100% !important;
+    }
+
+    .accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description p {
+        font-size: 13px;
+
+    }
 }
 
 @media (max-width: 768px) {
@@ -195,3 +224,101 @@
 
 
 @media (max-width: 576px) {}
+
+
+
+
+
+:root {
+    --border-color: #cccccc;
+    --background-color: #f1f1f1;
+    --transition: all 0.2s ease;
+}
+
+
+
+
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+
+
+.accordion .accordion-item .accordion-item-description-wrapper hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    visibility: visible;
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper hr {
+    visibility: visible;
+}
+
+.accordion .accordion-item .accordion-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+    color: #1C1F35 !important;
+    font-size: 20px !important;
+    font-weight: 400;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+    transition: var(--transition);
+    transform: rotate(-86deg);
+}
+
+.accordion .accordion-item.open .accordion-item-header .accordion-item-header-icon {
+    transform: rotate(-180deg);
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper {
+    grid-template-rows: 1fr;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description {
+    min-height: 0;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description p {
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #666C89 !important;
+    line-height: 25px;
+}
+
+
+
+.accordion-item-header:hover svg {
+    color: #FFB82B;
+}
+
+.back-box {
+    background-color: #091242;
+    bottom: 118px;
+    right: 68%;
+    position: absolute;
+    width: 50%;
+
+}
+
+.asked-man h4 {
+    font-size: 20px;
+}
