@@ -977,3 +977,38 @@ a {
     }
 
 }
+
+
+
+
+
+
+
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.like {
+    background-image: url('like-icon.png');
+    /* Replace 'like-icon.png' with your image */
+}
+
+.tab {
+    background-image: url('tab-icon.png');
+    /* Replace 'tab-icon.png' with your image */
+}
+
+.color-container {
+    margin-top: 20px;
+}
+
+.color-container input {
+    width: 50px;
+    height: 50px;
+}
