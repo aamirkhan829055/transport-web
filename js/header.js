@@ -86,7 +86,7 @@ if (document.getElementById("header")) {
                             </li>
 
                             <li class="nav-item list-a">
-                                <a class="nav-link text-white list-a-1" href="#">Project</a>
+                                <a class="nav-link text-white list-a-1" href="./Project.html">Project</a>
                             </li>
                             <li class="nav-item list-a">
                                 <a class="nav-link text-white list-a-1" href="#">contact</a>

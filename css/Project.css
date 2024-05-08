@@ -1,0 +1,66 @@
+.Project-sec-1 {
+    background-image: url("../images/projecthawai.png") !important;
+}
+
+.project-sec-2 {
+    padding: 100px 0px;
+}
+
+.svg-icon-111 {
+    background-color: rgba(28, 31, 53, 0.9);
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    width: 288px;
+    height: 288px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.svg-icon-111:hover {
+    opacity: 1;
+}
+
+#button-tab-img {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+
+
+
+@media (max-width:768px) {
+
+    .svg-icon-111 {
+        background-color: rgba(28, 31, 53, 0.9);
+        position: absolute;
+        top: 98px;
+        left: 112px;
+    }
+}
+
+@media (max-width:578px) {
+
+    .svg-icon-111 {
+        background-color: rgba(28, 31, 53, 0.9);
+        position: absolute;
+        top: 61px;
+        left: 72px;
+    }
+
+    .svg-icon-111 {
+
+        width: 222px;
+        height: 222px;
+    }
+}
+
+
+
+
+
+}
