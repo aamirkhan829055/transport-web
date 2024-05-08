@@ -1,0 +1,85 @@
+.service-details-sec-1 {
+    background-image: url(../images/darm.png);
+    background-size: cover;
+    padding: 153px 0px;
+    position: relative;
+}
+
+.service-details-sec-2 {
+    padding: 100px 0px;
+}
+
+.service-details-sec-3 {
+    padding: 100px 0px;
+}
+
+.benefit p {
+    font-size: 20px;
+    color: #1c1f35;
+}
+
+.play-icon {
+    top: 34%;
+    left: 45%;
+}
+
+.play-icon i {
+    width: 72px;
+    height: 72px;
+    line-height: 0;
+    background-color: rgb(255, 255, 255);
+    color: #1c1f35;
+    border-radius: 50px;
+    cursor: pointer;
+    animation: box-shadow 1s infinite;
+}
+
+@keyframes box-shadow {
+    0% {
+        box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 0 0 35px rgba(255, 255, 255, 0.2);
+    }
+
+    /* 150% {
+        box-shadow: 0 0 0 35px rgba(255, 255, 255, 0.3);
+    } */
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .benefit p {
+        font-size: 15px;
+        color: #1c1f35;
+    }
+
+    .service-details-sec-3 {
+        padding: 16px 0px;
+    }
+
+    .service-details-sec-2 {
+        padding: 40px 0px;
+    }
+
+    .play-icon {
+        top: 32%;
+        left: 40%;
+    }
+
+
+    .play-icon i {
+        width: 62px;
+        height: 62px;
+    }
+
+
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 400px) {}
