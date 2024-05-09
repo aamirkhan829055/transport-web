@@ -28,10 +28,8 @@
     border: none;
     width: 100%;
     outline: none;
+
 }
-
-
-
 
 @media (max-width:768px) {
 
@@ -57,10 +55,4 @@
         width: 222px;
         height: 222px;
     }
-}
-
-
-
-
-
 }
