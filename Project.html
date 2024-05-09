@@ -24,7 +24,6 @@
 </head>
 
 <body>
-
     <header class="header" id="header"></header>
     <section class="about-sec-1 Solutions-sec-1 Project-sec-1">
         <div class="container">
@@ -38,7 +37,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 col-xl-4">
-                    <button onclick="myFunction()" id="button-tab-img">
+                    <button class="box" id="button-tab-img">
                         <div class="position-relative my-3">
                             <img src="images/star-1.png" alt="" class="" width="100%" />
                             <div class="svg-icon-111">
@@ -58,7 +57,7 @@
                     </button>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-4">
-                    <button onclick="myFunction()" id="button-tab-img">
+                    <button class="box" id="button-tab-img">
                         <div class="position-relative my-3">
                             <img src="images/star.png" alt="" class="" width="100%" />
                             <div class="svg-icon-111">
@@ -78,7 +77,7 @@
                     </button>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-4">
-                    <button onclick="myFunction()" id="button-tab-img">
+                    <button class="box" id="button-tab-img">
                         <div class="position-relative my-3">
                             <img src="images/star2.png" alt="" class="" width="100%" />
                             <div class="svg-icon-111">
@@ -98,7 +97,7 @@
                     </button>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-4">
-                    <button onclick="myFunction()" id="button-tab-img">
+                    <button class="box" id="button-tab-img">
                         <div class="position-relative my-3">
                             <img src="images/star-5.png" alt="" class="" width="100%" />
                             <div class="svg-icon-111">
@@ -118,7 +117,7 @@
                     </button>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-4">
-                    <button onclick="myFunction()" id="button-tab-img">
+                    <button class="box" id="button-tab-img">
                         <div class="position-relative my-3">
                             <img src="images/star-3.png" alt="" class="" width="100%" />
                             <div class="svg-icon-111">
@@ -138,7 +137,7 @@
                     </button>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-4">
-                    <button onclick="myFunction()" id="button-tab-img">
+                    <button class="box" id="button-tab-img">
                         <div class="position-relative my-3">
                             <img src="images/star-4.png" alt="" class="" width="100%" />
                             <div class="svg-icon-111">
@@ -205,9 +204,6 @@
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
 
-
-
-    =
     <script>
         document.querySelectorAll(".accordion-item").forEach((item) => {
             item
@@ -219,10 +215,23 @@
     </script>
 
     <script>
-        function myFunction() {
-            window.open("images/star-1.png");
+        let boxes = document.querySelectorAll(".box");
+        let images = [
+            "http://127.0.0.1:5500/images/star-1.png",
+            "http://127.0.0.1:5500/images/star.png",
+            "images/star2.png",
+            "images/star-5.png",
+            "images/star-3.png",
+            "images/star-4.png",
+        ];
+        for (let i = 0; i < images.length; i++) {
+            boxes[i].addEventListener("click", () => {
+                window.open(images[i]);
+            });
         }
     </script>
+
+
 </body>
 
 </html>
