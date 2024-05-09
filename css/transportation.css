@@ -19,3 +19,9 @@
     font-size: 20px;
     color: #1c1f35;
 }
+
+@media (max-width:768px) {
+    .play-icon {
+        margin: 0px !important;
+    }
+}
