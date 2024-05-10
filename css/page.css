@@ -817,6 +817,18 @@ a {
         height: 11%;
     }
 
+    .dispaly-flex-media {
+        display: block !important;
+
+    }
+
+    .Chain-Solutions-1 {
+        margin-bottom: 20px;
+    }
+
+    .button-tab {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {

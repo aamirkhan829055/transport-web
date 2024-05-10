@@ -108,7 +108,7 @@ if (document.getElementById("footer")) {
                     <div class="footer-input pt-4">
                         <input type="text" class="py-3 pl-3" placeholder="Email here*">
                     </div>
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center dispaly-flex-media">
                         <div class="Chain-Solutions-1 mt-3">
                             <button class="button-tab border-0">Send Now</button>
                         </div>
@@ -124,7 +124,7 @@ if (document.getElementById("footer")) {
             </div>
 
         </div>
-        <div class=" border-top-99 mt-4">
+        <div class="border-top-99 mt-4">
             <div class="container">
                 <div class="d-flex justify-content-between pt-4 hhhh">
                     <p class="text-white transhfollw">Copyright © TransitFlow | Designed by VictorFlow - Powered by

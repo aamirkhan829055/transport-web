@@ -77,6 +77,7 @@ if (document.getElementById("header")) {
                                     Pages
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <a class="dropdown-item" href="./12-March.html">Blog</a>
                                     <a class="dropdown-item" href="./latest.html">latest News</a>
                                     <a class="dropdown-item" href="./transportation.html">project details
     </a>
