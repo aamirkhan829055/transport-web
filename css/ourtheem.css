@@ -1,0 +1,21 @@
+.ourtheem {
+    background-image: url("../images/order.png");
+    background-size: cover;
+    padding: 153px 0px;
+    position: relative;
+}
+
+.ourtheem::after {
+    background-image: linear-gradient(92deg,
+            #091242 -112%,
+            #032d5f -79%,
+            rgba(191, 205, 19, 0));
+
+    position: absolute;
+    inset: 0;
+    content: "";
+}
+
+.border-1-1 {
+    border-top: 1px solid #D6D6D6;
+}

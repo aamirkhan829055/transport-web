@@ -1,0 +1,38 @@
+        .our-best-price-sec-1 {
+            background-image: url("../images/moring-year.png");
+            background-size: cover;
+            padding: 99px 0px;
+            position: relative;
+        }
+
+        .our-best-price-sec-1::after {
+            position: absolute;
+            content: "";
+            background-image: linear-gradient(92deg, #091242 -8%, #032d5f 30%, rgba(191, 214, 65, 0) 75%);
+            inset: 0;
+        }
+
+        .our-best-price-sec-2 {
+            padding: 100px 0px;
+        }
+
+        .our-best-text span {
+            font-size: 350px;
+            font-weight: bold;
+            color: #1C1F35
+        }
+
+        .our-best-text .jiro {
+            color: #FFB82B;
+        }
+
+
+        @media (max-width:1200px) {
+            .our-best-text span {
+                font-size: 90px;
+            }
+
+            .our-best-price-sec-2 {
+                padding: 27px 0px;
+            }
+        }

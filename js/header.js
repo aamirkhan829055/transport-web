@@ -77,14 +77,20 @@ if (document.getElementById("header")) {
                                     Pages
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                 <a class="dropdown-item" href="./ourteam.html">team</a>
                                  <a class="dropdown-item" href="./12-March.html">Blog</a>
                                     <a class="dropdown-item" href="./latest.html">latest News</a>
                                     <a class="dropdown-item" href="./transportation.html">project details
     </a>
                                     <a class="dropdown-item" href="./logistics.html">Logistics Service
-</a>
-                                    <div class="dropdown-divider"></div>
+</a>                    <div class="dropdown-divider"></div>
+                                              <a class="dropdown-item"  href="./change-log.html">Change-Log
+                </a>
+                                              <a class="dropdown-item"  href="./our-best-price.html">our-best-price</a>
+                                              <a class="dropdown-item"  href="./best-price.html"> best-price</a>
                                     <a class="dropdown-item" href="./service.html">service</a>
+
+                              
                                 </div>
                             </li>
 
@@ -92,7 +98,8 @@ if (document.getElementById("header")) {
                                 <a class="nav-link text-white list-a-1" href="./Project.html">Project</a>
                             </li>
                             <li class="nav-item list-a">
-                                <a class="nav-link text-white list-a-1" href="#">contact</a>
+                      
+                                <a class="nav-link text-white list-a-1" href="./contact-us.html">contact</a>
                             </li>
                         </ul>
 
