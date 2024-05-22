@@ -76,20 +76,21 @@ if (document.getElementById("header")) {
                                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Pages
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <a class="dropdown-item" href="./ourteam.html">team</a>
-                                 <a class="dropdown-item" href="./12-March.html">Blog</a>
-                                    <a class="dropdown-item" href="./latest.html">latest News</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">       <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="./assets-liecenses.html">assets-liecenses</a>        <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="./ourteam.html">team</a>     <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="./12-March.html">Blog</a>     <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="./latest.html">latest News</a>     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="./transportation.html">project details
-    </a>
+    </a>     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="./logistics.html">Logistics Service
-</a>                    <div class="dropdown-divider"></div>
-                                              <a class="dropdown-item"  href="./change-log.html">Change-Log
-                </a>
-                                              <a class="dropdown-item"  href="./our-best-price.html">our-best-price</a>
-                                              <a class="dropdown-item"  href="./best-price.html"> best-price</a>
-                                    <a class="dropdown-item" href="./service.html">service</a>
-
+</a>                        <div class="dropdown-divider"></div>
+                                              <a class="dropdown-item"  href="./change-log.html">Change-Log  
+                </a>     <div class="dropdown-divider"></div>
+                                              <a class="dropdown-item"  href="./our-best-price.html">our-best-price</a>     <div class="dropdown-divider"></div>
+                                              <a class="dropdown-item"  href="./best-price.html"> best-price</a>     <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="./service.html">service</a>     <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="./poassword-protection.html">poassword-protection</a>
                               
                                 </div>
                             </li>

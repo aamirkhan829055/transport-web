@@ -25,65 +25,119 @@
     <link rel="stylesheet" href="css/service-details.css">
     <link rel="stylesheet" href="css/latest.css" class="">
     <style>
-        .change-log-sec-1 {
-            background-image: url("./images/worter-tank.png");
+        .password-sec-1 {
+            background-image: url("./images/bg-yellomoon.png");
             ;
         }
 
-        .Change-se-2 {
+        .assets-log-sec-2 {
             padding: 100px 0px;
         }
 
-        .transitflow {
-            background-color: #091242;
+        .text-span {
+            font-size: 25px;
+            color: #1C1F35;
         }
 
+        .password-sec-2 {
+            padding: 100px 0px;
+        }
+
+
         .transitflow {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            background-color: #091242;
             padding: 100px 80px;
         }
 
-        .transitflow p:nth-child(1) {
+        .transitflow-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .transitflow-1 p:nth-child(1) {
             font-size: 35px;
             font-weight: bold;
         }
 
-        .transitflow p:nth-child(2) {
+        .transitflow-1 p:nth-child(2) {
             font-size: 16px;
             font-weight: 300;
             background-color: #1C2551;
             padding: 10px 20px;
 
         }
+
+        .transitflow-1 input {
+            width: 317px;
+            height: 60px;
+            outline: none;
+            padding-left: 14px;
+            border: 1px solid #4E5683;
+            color: #fff;
+            background-color: transparent;
+        }
+
+        /* .transitflow-1 input::placeholder {
+            color: #fff;
+
+        } */
+
+        @media (max-width:992px) {
+            .transitflow-1 {
+                display: block;
+            }
+
+            .Chain-Solutions-1 {
+                margin-bottom: 0px;
+                margin-left: 0px !important;
+                margin-top: 15px;
+            }
+
+            .transitflow-1 input {
+                width: 100%;
+            }
+
+            .transitflow {
+                padding: 55px 15px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <header class="header" id="header"></header>
-    <section class="about-sec-1 change-log-sec-1">
+    <section class="about-sec-1 password-sec-1">
         <div class="container">
             <div class="Chain-Solutions Solutions-cc">
-                <span class="text-white py-1 px-2">Updates</span>
-                <h1 class="text-white pt-3">Change Log</h1>
+                <span class="text-white py-1 px-2">Protection</span>
+                <h1 class="text-white pt-3">Password Protection</h1>
             </div>
         </div>
     </section>
-    <section class="Change-se-2">
+
+
+    <section class="password-sec-2 ">
         <div class="container">
+
             <div class="row justify-content-center">
                 <div class="col-10">
-                    <div class="transitflow ">
-                        <p class="text-white m-0">Version 01</p>
-                        <p class="text-white m-0">Initial TransitFlow Webflow Template Release</p>
+                    <div class="transitflow">
+                        <h3 class="text-white text-center ">Enter Password</h3>
+                        <div class="transitflow-1 mt-4 mb-0">
+
+                            <input type="text" placeholder="Enter Your Password" class="">
+                            <div class="Chain-Solutions-1 ml-4">
+                                <button class="button-tab border-0">Submit</button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
         </div>
     </section>
-
 
     <footer class="footer-and" id="footer"></footer>
     <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
